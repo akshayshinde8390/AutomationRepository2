@@ -15,14 +15,27 @@ public class ScrollRightENd {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.get("https://dashboards.handmadeinteractive.com/jasonlove/");
 				
-		//perform scroll down
-		JavascriptExecutor jse=(JavascriptExecutor)driver;
+//		//perform scroll Right
+//		JavascriptExecutor jse=(JavascriptExecutor)driver;
+//		
+//		for(int i=0;i<2;i++)
+//		{
+//			Thread.sleep(2000);
+//			jse.executeScript("window.scrollBy(5000,0)");
+//		}
+//
+//		driver.get("https://dashboards.handmadeinteractive.com/jasonlove");
+		
+		// perform scroll Right
+		
+		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		
 		for(int i=0;i<2;i++)
 		{
-			Thread.sleep(2000);
-			jse.executeScript("Window.scrollBy(5000,0)");
+		  Thread.sleep(2000);
+	    	jse.executeScript("window.scrollBy(5000,0)");
 		}
+		
 
 	}
 
