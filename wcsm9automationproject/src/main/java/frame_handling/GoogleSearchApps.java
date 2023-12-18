@@ -21,7 +21,7 @@ public class GoogleSearchApps {
 		driver.switchTo().frame(1);//int index
 		//driver.switchTo().frame(frameElement);
 		driver.findElement(By.xpath("//span[text()='Maps']")).click();
-
+		
 	}
 
 }
