@@ -17,8 +17,6 @@ public class LauchChrome
 		System.out.println("browser is open");
 		Thread.sleep(3000);
 		driver.close();
-		System.out.println("browser is close");
-		
+		System.out.println("browser is close");	
 	}
-
 }
