@@ -14,6 +14,5 @@ public class FetchingDataFromPropertyFile
 		prop.load(fis);
 		String value = prop.getProperty(key);
 		return value;
-
 	}
 }
